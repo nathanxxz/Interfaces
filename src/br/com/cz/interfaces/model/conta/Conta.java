@@ -1,4 +1,4 @@
-package br.com.cz.interfaces.model;
+package br.com.cz.interfaces.model.conta;
 
 abstract class Conta {
     private double saldo;

@@ -1,4 +1,4 @@
-package br.com.cz.interfaces.model;
+package br.com.cz.interfaces.model.area;
 
 import br.com.cz.interfaces.contrato.IAreaCalculavel;
 
@@ -13,14 +13,14 @@ public class Retangulo implements IAreaCalculavel {
 
     @Override
     public double calcularArea() {
-        return 0;
+        return this.base*this.altura;
     }
 
     @Override
     public String toString() {
         return "Retangulo{" +
                 "base=" + base +
-                ", altura=" + altura +
+                ", altura=" + altura + "calcularArea=" + calcularArea() +
                 '}';
     }
 }

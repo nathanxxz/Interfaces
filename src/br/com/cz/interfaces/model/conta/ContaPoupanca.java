@@ -1,6 +1,6 @@
-package br.com.cz.interfaces.model;
+package br.com.cz.interfaces.model.conta;
 
-public class ContaPoupanca extends  Conta{
+public class ContaPoupanca extends Conta {
     public ContaPoupanca(double saldo) {
         super(saldo);
     }

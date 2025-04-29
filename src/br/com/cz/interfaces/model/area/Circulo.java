@@ -1,4 +1,4 @@
-package br.com.cz.interfaces.model;
+package br.com.cz.interfaces.model.area;
 
 import br.com.cz.interfaces.contrato.IAreaCalculavel;
 
@@ -11,13 +11,14 @@ public class Circulo implements IAreaCalculavel {
 
     @Override
     public double calcularArea() {
-        return 0;
+        double pi=3.14;
+        return pi*this.raio*this.raio;
     }
 
     @Override
     public String toString() {
         return "Circulo{" +
-                "raio=" + raio +
+                "raio=" + raio + "calcularArea=" + calcularArea() +
                 '}';
     }
 }

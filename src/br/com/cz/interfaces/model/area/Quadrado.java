@@ -1,4 +1,4 @@
-package br.com.cz.interfaces.model;
+package br.com.cz.interfaces.model.area;
 
 import br.com.cz.interfaces.contrato.IAreaCalculavel;
 
@@ -11,13 +11,13 @@ public class Quadrado implements IAreaCalculavel {
 
     @Override
     public double calcularArea() {
-        return 0;
+        return this.lado*this.lado;
     }
 
     @Override
     public String toString() {
         return "Quadrado{" +
-                "lado=" + lado +
+                "lado=" + lado + "calcularArea=" + calcularArea() +
                 '}';
     }
 }

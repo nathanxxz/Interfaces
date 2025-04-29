@@ -1,5 +1,6 @@
 package br.com.cz.interfaces.contrato;
 
-public interface IcalculaTributos {
-    
+public interface ITributavel {
+    double calculaTributos();
+
 }
